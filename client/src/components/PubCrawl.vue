@@ -100,7 +100,6 @@ async function loadSchedule() {
   if (pubs.value.length) firstPub.value = pubs.value[0];
 
   updatePubStatus();
-  setInterval(updatePubStatus, 1000);
 }
 
 function updatePubStatus() {
@@ -130,8 +129,8 @@ function updatePubStatus() {
   if (!crawlStarted.value && firstPub.value) {
     updatePreCountdown(now, firstPub.value.start);
     if (!preCrawlSnowRunning) {
-      startCalmPreCrawlSnow();
       preCrawlSnowRunning = true;
+      startCalmPreCrawlSnow();
     }
   } else {
     // crawl has started, stop snow
@@ -263,5 +262,7 @@ function stopCalmPreCrawlSnow() {
 
 onMounted(() => {
   loadSchedule();
+
+  setInterval(updatePubStatus, 1000);
 });
 </script>
