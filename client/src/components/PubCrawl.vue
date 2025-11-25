@@ -95,7 +95,7 @@ const firstPub = ref(null);
 let preCrawlSnowRunning = false;
 
 async function loadSchedule() {
-  const res = await fetch(`${import.meta.env.BASE_URL}schedule.json`);
+  const res = await fetch("/schedule.json");
   pubs.value = await res.json();
   if (pubs.value.length) firstPub.value = pubs.value[0];
 
