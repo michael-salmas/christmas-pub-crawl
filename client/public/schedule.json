@@ -1,33 +1,57 @@
 [
   {
-    "name": "The Tipsy Elf Pub",
-    "start": "2025-11-24T19:35:00",
-    "end": "2025-11-24T19:41:00",
-    "mapUrl": "https://www.google.com/maps?q=The+Tipsy+Elf+Pub+Calgary",
+    "name": "Leopold’s Tavern ",
+    "start": "2025-11-19T19:30:00",
+    "end": "2025-12-19T20:30:00",
+    "mapUrl": "https://www.google.com/maps/place/Leopold%E2%80%99s+Tavern+Calgary+-+Beltline/@51.0437912,-114.0690179,16.76z/data=!4m6!3m5!1s0x53717002d227dd67:0x7726c883c1a09f24!8m2!3d51.0413625!4d-114.0660805!16s%2Fg%2F11fzxrwm0s?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
     "rules": [
-      "Everyone must wear a Santa hat.",
-      "Speak only in Christmas puns.",
-      "Every time someone says 'cheers', take a sip."
+      "Playing Kings Cup (The card game)"
     ]
   },
   {
-    "name": "The Reindeer Lounge",
-    "start": "2025-11-24T19:41:00",
-    "end": "2025-11-24T22:55:00",
-    "mapUrl": "https://www.google.com/maps?q=The+Reindeer+Lounge+Calgary",
+    "name": "Bottle Screw Bills",
+    "start": "2025-12-19T20:30:00",
+    "end": "2025-12-19T21:30:00",
+    "mapUrl": "https://www.google.com/maps/place/Bottlescrew+Bill's+Pub/@51.043604,-114.0680239,17z/data=!3m1!4b1!4m6!3m5!1s0x537170029d2e7b69:0x9c6d40b52d2fe00a!8m2!3d51.043604!4d-114.065449!16s%2Fg%2F1td1pk66?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
     "rules": [
-      "No hands when drinking.",
-      "End every sentence with '…and to all a good night!'"
+      "Reindeer Stable (Your drink must be fed to you by a partner)"
     ]
   },
   {
-    "name": "Frosty’s Beer Cave",
-    "start": "2025-11-25T19:03:00",
-    "end": "2025-11-25T20:00:00",
-    "mapUrl": "https://www.google.com/maps?q=Frostys+Beer+Cave+Calgary",
+    "name": "St. Jame’s Corner",
+    "start": "2025-12-19T21:30:00",
+    "end": "2025-12-19T22:30:00",
+    "mapUrl": "https://www.google.com/maps/place/St.+James+Corner+Restaurant+%26+Irish+Pub/@51.0406909,-114.0709088,17z/data=!3m1!4b1!4m6!3m5!1s0x537170032afb868b:0xb27b5fd7b7e07bb2!8m2!3d51.040691!4d-114.0660379!16s%2Fg%2F1v6wn_k_?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
     "rules": [
-      "Speak only in rhyme.",
-      "Anyone caught without a Christmas accessory buys a round."
+      "No Swearing",
+      "Lucky Roll (Roll a die to determine your drink)"
+    ]
+  },
+  {
+    "name": "Elephant and Castle",
+    "start": "2025-12-19T22:30:00",
+    "end": "2025-12-19T23:30:00",
+    "mapUrl": "https://www.google.com/maps/place/Elephant+%26+Castle/@51.0385918,-114.0743693,17z/data=!3m1!4b1!4m6!3m5!1s0x53717102a4debff5:0x9c42d6383023f601!8m2!3d51.0385918!4d-114.0717944!16s%2Fg%2F11rgh7cqbr?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
+    "rules": [
+      "No Names (Cannot use anyone’s first/last name on the crawl)"
+    ]
+  },
+  {
+    "name": "The Unicorn on 4th",
+    "start": "2025-12-19T23:30:00",
+    "end": "2025-12-20T00:30:00",
+    "mapUrl": "https://www.google.com/maps/place/The+Unicorn+on+4/@51.0353267,-114.0745339,16z/data=!3m2!4b1!5s0x5371701942050c7f:0xe0d54d14a04e56b9!4m6!3m5!1s0x5371719fb7fa3ae9:0x5809b9bb90128286!8m2!3d51.0353267!4d-114.071959!16s%2Fg%2F11v6wp_wcs?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
+    "rules": [
+      "No Eye Contact (If you catch someone eyeing you up call them out!)"
+    ]
+  },
+  {
+    "name": "Duckies",
+    "start": "2025-12-20T00:30:00",
+    "end": "2025-12-20T01:30:00",
+    "mapUrl": "https://www.google.com/maps/place/Ducky's+Pub+%26+Restaurant/@51.0340383,-114.0735948,16z/data=!3m1!4b1!4m6!3m5!1s0x537170190aef219b:0xf8a3bbf3b6fc4722!8m2!3d51.0340383!4d-114.0710199!16s%2Fg%2F1tjynd5_?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D",
+    "rules": [
+      "Opposite Hand (Lefty)"
     ]
   }
 ]
