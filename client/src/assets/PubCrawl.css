@@ -1,0 +1,212 @@
+.pubcrawl-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 1rem;
+  background: linear-gradient(180deg, #b71c1c 0%, #4a0d0d 100%);
+  color: #fff;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push next-section to bottom */
+}
+
+.next-section {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Optional: ensure countdown and next-map-btn are centered at bottom */
+.next-section .countdown {
+  margin-bottom: 0.5rem;
+}
+
+.next-section .next-map-btn {
+  display: inline-block;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding: 0.3rem;
+  text-shadow: 0 0 5px rgba(255, 230, 230, 0.8);
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pub-name {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-range {
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+/* Map buttons */
+.map-btn,
+.next-map-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.9rem;
+  background: rgba(255,255,255,0.25);
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+
+/* Countdown */
+.countdown {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Bullet styling */
+.rules {
+  padding-left: 1.2rem;
+  list-style: disc inside;
+}
+
+.rules li {
+  margin-bottom: 0.4rem;
+  line-height: 1.4rem;
+}
+
+/* Snow overlay fallback */
+.snow {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background-image: url("https://assets.codepen.io/1948355/snow.png");
+  opacity: 0.2;
+  animation: snowmove 25s linear infinite;
+}
+@keyframes snowmove { 0% { background-position: 0 0; } 100% { background-position: 0 1200px; } }
+
+/* Card fade transition */
+.card-fade-enter-from,
+.card-fade-leave-to { opacity: 0; transform: translateY(20px); }
+.card-fade-enter-active,
+.card-fade-leave-active { transition: all 0.35s ease; }
+
+.pre-crawl-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  animation: bounceIn 0.8s ease-out;
+  position: relative; /* Needed for snow emojis */
+}
+
+.pre-crawl-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffec00; /* festive yellow */
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #00ff00;
+}
+
+.pre-countdown {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00ff44; /* green countdown */
+  margin-bottom: 1rem;
+}
+
+.map-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #ff4444;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff4444;
+}
+
+.emoji-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.emoji {
+  position: absolute;
+  will-change: transform, top, left, opacity;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Animations */
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+
+.map-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #ff4444;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #ff4444;
+}
+
+/* --- Animations --- */
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+@keyframes rainbowPulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "The Tipsy Elf Pub",
+    "start": "2025-11-24T19:35:00",
+    "end": "2025-11-24T19:41:00",
+    "mapUrl": "https://www.google.com/maps?q=The+Tipsy+Elf+Pub+Calgary",
+    "rules": [
+      "Everyone must wear a Santa hat.",
+      "Speak only in Christmas puns.",
+      "Every time someone says 'cheers', take a sip."
+    ]
+  },
+  {
+    "name": "The Reindeer Lounge",
+    "start": "2025-11-24T19:41:00",
+    "end": "2025-11-24T22:55:00",
+    "mapUrl": "https://www.google.com/maps?q=The+Reindeer+Lounge+Calgary",
+    "rules": [
+      "No hands when drinking.",
+      "End every sentence with '…and to all a good night!'"
+    ]
+  },
+  {
+    "name": "Frosty’s Beer Cave",
+    "start": "2025-11-25T19:00:00",
+    "end": "2025-11-25T20:00:00",
+    "mapUrl": "https://www.google.com/maps?q=Frostys+Beer+Cave+Calgary",
+    "rules": [
+      "Speak only in rhyme.",
+      "Anyone caught without a Christmas accessory buys a round."
+    ]
+  }
+]
